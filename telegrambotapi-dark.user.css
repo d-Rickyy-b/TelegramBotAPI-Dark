@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name           TelegramBotAPI-Dark
+@namespace      github.com/d-Rickyy-b
+@version        1.0.0
+@description    A dark theme for the Telegram bot API docs
+@homepageURL    https://github.com/d-Rickyy-b/TelegramBotAPI-Dark
+@updateURL      https://raw.githubusercontent.com/d-Rickyy-b/TelegramBotAPI-Dark/main/telegrambotapi-dark.user.css
+@license        MIT
+@author         d-Rickyy-b
+==/UserStyle== */
+
+@-moz-document url-prefix("https://core.telegram.org/bots/api"), url-prefix("https://core.telegram.org/bots") {
+    
+    body {
+        color: #c9d1d9;
+        background-color: #1f2c36;
+    }
+    
+    .dev_page {
+        background: #1f2c36;
+    }
+    
+    .breadcrumb {
+        background-color: #2f3742;
+    }
+    
+    code {
+        background-color: rgba(110,118,129,0.4);
+        color: #fff;
+        border-radius: 6px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    
+    pre {
+        background-color: rgba(110,118,129,0.4);
+        color: #fff;
+    }
+    
+    blockquote {
+        border-left-color: #129bc6;
+    }
+    
+    hr {
+        border-color: #30363d;
+    }
+    
+    .navbar-tg .navbar-inner {
+        border-color: #1a1f25;
+    }
+    
+    .table > thead > tr > th {
+        border-bottom: 2px solid #3e3e3e;
+    }
+    
+    .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+        border-color: #3e3e3e;
+    }
+}
