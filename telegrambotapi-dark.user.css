@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           TelegramBotAPI-Dark
 @namespace      github.com/d-Rickyy-b
-@version        1.0.0
+@version        1.0.1
 @description    A dark theme for the Telegram bot API docs
 @homepageURL    https://github.com/d-Rickyy-b/TelegramBotAPI-Dark
 @updateURL      https://raw.githubusercontent.com/d-Rickyy-b/TelegramBotAPI-Dark/main/telegrambotapi-dark.user.css
@@ -13,6 +13,10 @@
     
     body {
         color: #c9d1d9;
+        background-color: #1f2c36;
+    }
+    
+    .navbar-tg {
         background-color: #1f2c36;
     }
     
